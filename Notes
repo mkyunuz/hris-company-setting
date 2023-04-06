@@ -1,0 +1,106 @@
+Informasi Pribadi
+    Nama Lengkap
+    Jenis Kelamin
+    NIK
+    Agama
+    Tanggal Lahir
+    Tempat lahir
+
+    
+
+Informasi Kontak
+    Alamat (Sesuai KTP)
+    Domisili
+    No HP 1
+    No HP 2
+    email
+    Kontak Darurat
+    Hubungan
+    No HP Kontak Darurat 1
+    Alamat Kontak Darurat
+
+
+
+Informasi Keluarga
+    Nama Ayah
+    Nama Ibu
+    Status Perkawinan
+    Nama Pasangan (If nikah)
+    Nama Anak 1 - N (If beranak)
+
+
+Informasi Pendidikan
+    Tingkat
+    Nama Institusi 
+    Jurusan
+    Tanggak Masuk
+    Tanggal Lulus
+
+    Tingkat
+    Nama Institusi 
+    Jurusan
+    Tanggak Masuk
+    Tanggal Lulus
+
+
+Pengalaman Kerja
+    Nama Perusahaan
+    Jabatan Terakhir
+    Job Desc
+
+    Nama Perusahaan
+    Jabatan Terakhir
+    Job Desc
+
+Kepegawaian
+    NIP
+    Office Email
+    Department
+    Jabatan
+    Join Date
+    Status Karyawan
+    Start Contract *
+    End Contract *
+    Bank Name
+    Bank Account
+    Bank Account Name
+
+
+
+Payroll
+    Use BPJSKS
+    Use BPJSTK
+    pph21
+    Allowance
+    Deduction
+
+
+
+Payroll Component
+client_id
+component_name  => Salary 
+component_value_type  => % Fix 
+pph21       => 1 / 0
+
+
+
+client_Setting
+enable_pph21
+enable_bpjstk
+enable_bpjsks
+
+
+talbe_bpjs
+id
+client_id
+bpjs_group > KS / TK
+value_type => percent / fixed
+corporate_responsibility
+employee_responsibility
+
+
+table_pph21
+npwp_company_name
+npwp_company_number
+nppwp_owner_name
+npwp_owner_number
